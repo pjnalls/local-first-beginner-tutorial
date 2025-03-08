@@ -26,7 +26,7 @@ TL;DR: First read the README in each folder, then the code files.
 We'll implement CRUD operations, a local database, and a synchronization feature for our local-first to-do app through these steps:
 - Create a client Expo app - **DONE!**
 - Install dependencies - **DONE!**
-- Add TinyBase provider
+- Add TinyBase provider - **DONE!**
 - Define TinyBase database tables and cells
 - Create a mergeable store
 - Add items to the store
