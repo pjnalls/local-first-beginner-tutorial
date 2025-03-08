@@ -3,7 +3,7 @@
 **Goal: Create an Expo app and install dependencies.**
 
 ## Create Project Folders
-1. Create a new folder for your project in a integrated Bash terminal in [VSCode](https://code.visualstudio.com/download), [Cursor](https://www.cursor.com/), or other IDE (integrated development environment) of your choice:
+1. Create a new folder for your project in an integrated Bash terminal in [VSCode](https://code.visualstudio.com/download), [Cursor](https://www.cursor.com/), or another IDE (integrated development environment) of your choice:
 ```bash
 $ mkdir name-of-your-project
 ```
@@ -11,7 +11,7 @@ $ mkdir name-of-your-project
 ```bash
 $ cd name-of-your-project
 ```
-3. Create 2 folders: one for the `client` and one for the `server`:
+3. Create two folders: one for the `client` and one for the `server`:
 ```bash
 $ mkdir client server
 ```
@@ -34,16 +34,51 @@ Ok to proceed? (y)
 ```bash
 $ npx expo start
 ```
-2. Access the app on your device with Expo Go or on a simulator/emulator once the Metro Bundler finishes loading.
+2. Access the app on device(s) with Expo Go or on simulator(s)/emulator(s) once the Metro Bundler finishes loading.
 You should see something like the following for the Home and Explore tabs respectively:
 <div align="center">
-    <img alt="expo app home nav" src="assets/figure-a.png" width="240px" />
-    <img alt="expo app explore nav" src="assets/figure-b.png" width="240px" />
+    <img alt="expo app home tab" src="figures/fig-1/fig-1a.png" width="240px" />
+    <img alt="expo app explore tab" src="figures/fig-1/fig-1b.png" width="240px" />
 </div>
 
 ## Install Dependencies
-1. Focus on your terminal and press "Control/Ctrl" and "C" keys simultaneously to stop the Expo app server if it's still running.
+1. Focus on your terminal and press "Ctrl" and "C" keys simultaneously to stop the Expo client if it's still running.
 2. Install Expo SQLite and Tinybase:
 ```bash
 $ npx expo install expo-sqlite tinybase
 ```
+
+## Replace Code While Running the Client
+1. Run the client Expo app:
+```bash
+$ npx expo start
+```
+2. Load the app on device(s) with Expo Go or simulator(s)/emulator(s).
+3. Navigate to `/client/app/(tabs)/index.tsx` in your project directory.
+4. Press "Ctrl" and "A" simultaneously to highlight all code in `/client/app/(tabs)/index.tsx`.
+5. Press "Backspace" or "Delete".
+6. Type the following code into `/client/app/(tabs)/index.tsx`:
+```typescript
+// Used to contain elements in the UI
+import { View } from "react-native";
+
+// Custom light-and-dark-themed wrapper component around the React Native Text element
+import { ThemedText } from "@/components/ThemedText";
+
+// The main component for the Home screen
+export default function HomeScreen() {
+  // The main UI for the Home screen
+  return (
+    // The main container for the UI
+    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+      {/* The main title for the screen */}
+      <ThemedText type="title">Tasks</ThemedText>
+    </View>
+  )
+}
+```
+7. Reload the app on device(s) and simulator(s)/emulator(s) by pressing "R" in the terminal with the client running.
+You should see something like the following for the Home tab:
+<div align="center">
+    <img alt="expo app home tab tasks" src="figures/fig-1/fig-1c.png" width="240px" />
+</div>

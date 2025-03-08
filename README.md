@@ -1,14 +1,14 @@
 # local-first-dev-tutorial
-A local-first React Native to-do app development tutorial for beginners based on the one Expo provides here: https://www.youtube.com/watch?v=eNviiODBWFE.
+A React Native development beginner tutorial for building a local-first to-do app for iOS, Android, and the Web, based on the tutorial Expo provides here: https://www.youtube.com/watch?v=eNviiODBWFE.
 
-While local-first software may not fit every use case and there are certainly some disadvantages to using it, I'm excited to learn of the potential data privacy and security it can give back to users—as I'm a fan of Tim Berners-Lee, the inventor of the World Wide Web, who is a vocal advocate for user control of their personal data.
+While local-first software may not fit every use case and there are certainly some disadvantages to using it, I'm excited about the potential data privacy and security it can give back to users. I'm a fan of Tim Berners-Lee, the inventor of the World Wide Web, who is a vocal advocate for user control of their personal data.
 
 Inspired by Tim Berners-Lee's user-centered ideas of personal data, I'll try to make short step-by-step READMEs and code samples for anyone to follow that show how to develop a local-first React Native to-do app for iOS and Android.
 
 You can read about local-first architecture with Expo here: https://docs.expo.dev/guides/local-first/
 
 ## Features
-- This course is a code tutorial aimed at people who are comfortable with React Native development. For example, developers who have a curiosity about how to create cross-platform apps for iOS and Android but don't necessarily need to have a lot of experience creating React Native apps.
+- This course is a code tutorial aimed at people who are comfortable with React Native development. For example, developers who have a curiosity about how to create cross-platform apps for iOS, Android, and the local Web but don't necessarily need to have a lot of experience creating React Native apps.
 - There are bits of explanations, but I'd like to simply provide instructions, code snippets, and screenshots of our progress throughout the tutorial.
 - The lessons are tiny and may take 5-15 minutes to complete. You got this!
 
@@ -42,5 +42,5 @@ We'll implement CRUD operations, a local database, and a synchronization feature
 We will go through all of these strategic steps in order.
 
 ## Credits
-1. Big thanks to [Expo](https://expo.dev/) for getting me curious about local-first development and for sharing the beginner tutorial for it availabe here: https://www.youtube.com/watch?v=eNviiODBWFE.
-2. Credit to [@cfenollossa](https://github.com/cfenollosa) for their well written [os-tutorial](https://github.com/cfenollosa/os-tutorial) which helped me write this tutorial. 
+1. Big thanks to [Expo](https://expo.dev/) for getting me curious about local-first development and for sharing the beginner tutorial for it available here: https://www.youtube.com/watch?v=eNviiODBWFE.
+2. Credit to [@cfenollossa](https://github.com/cfenollosa) for their well-written [os-tutorial](https://github.com/cfenollosa/os-tutorial) which helped me write this tutorial.
