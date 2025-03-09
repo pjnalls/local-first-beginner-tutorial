@@ -6,7 +6,6 @@
 ## Import TinyBase Provider
 1. Navigate to `/client/app/_layout.tsx`.
 2. Add an import statement for the TinyBase Provider:
-### All dependencies in `/client/app/_layout.tsx`
 ```typescript
 import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
@@ -19,21 +18,20 @@ import 'react-native-reanimated';
 import { useColorScheme } from '@/hooks/useColorScheme';
 // ...
 ```
-### Place to import the TinyBase provider
 ```typescript
 // ...
 import 'react-native-reanimated';
+// Add code here
 
 import { useColorScheme } from '@/hooks/useColorScheme';
 // ...
 ```
-### Addition of the TinyBase provider
-```diff
+```typescript
 // ...
 import 'react-native-reanimated';
-+ // Import provider to use TinyBase
-+ import { Provider as TinyBaseProvider } from 'tinybase/ui-react';
-+
+// Import provider to use TinyBase
+import { Provider as TinyBaseProvider } from 'tinybase/ui-react';
+
 import { useColorScheme } from '@/hooks/useColorScheme';
 // ...
 ```
@@ -54,11 +52,11 @@ return (
 }
 ```
 2. Wrap the TinyBase provider around the app screens:
-```diff
+```typescript
 // ...
 return (
-+    // Use TinyBase provider to wrap the app screens for local-first development
-+    <TinyBaseProvider>
+    // Use TinyBase provider to wrap the app screens for local-first development
+    <TinyBaseProvider>
       <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
         <Stack>
           <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
@@ -66,7 +64,7 @@ return (
         </Stack>
         <StatusBar style="auto" />
       </ThemeProvider>
-+    </TinyBaseProvider>
+   </TinyBaseProvider>
   );
 }
 ```
@@ -85,7 +83,7 @@ Please create two helper functions for the HomeScreen of a to-do app written abo
 
 The following code generated above the `HomeScreen` functional component in `/client/app/(tabs)/index.tsx` based on the prompt provided in the last step, the `## Option 1"` section:
 ```typescript
-// ...
+// Above are `import` statments
 /**
  * Generates a random ID string using timestamp and random numbers
  * @returns A unique string ID
@@ -127,7 +125,7 @@ const getRandomTask = (): string => {
   const randomIndex = Math.floor(Math.random() * SAMPLE_TASKS.length);
   return SAMPLE_TASKS[randomIndex];
 };
-// ...
+// Below is the main `HomeScreen` component
 ```
 
 [Previous: Project Setup](/01-project-setup.md) • [Next: TinyBase Tables and Cells](/03-tinybase-tables-and-cells.md)

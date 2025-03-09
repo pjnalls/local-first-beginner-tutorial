@@ -14,21 +14,12 @@ This is a super short lesson.
 import { View } from "react-native";
 // Custom light-and-dark-themed wrapper component around the React Native Text element
 import { ThemedText } from "@/components/ThemedText";
-//...
+
+// Add code here
+// ...
 ```
 2. Define a table name constant:
-```diff
-// Used to contain elements in the UI
-import { View } from "react-native";
-// Custom light-and-dark-themed wrapper component around the React Native Text element
-import { ThemedText } from "@/components/ThemedText";
-
-+// Define TinyBase database table name
-+const TABLE_NAME = "tasks";
-```
-
-## Define Cell Names
-```diff
+```typescript
 // Used to contain elements in the UI
 import { View } from "react-native";
 // Custom light-and-dark-themed wrapper component around the React Native Text element
@@ -37,9 +28,21 @@ import { ThemedText } from "@/components/ThemedText";
 // Define TinyBase database table name
 const TABLE_NAME = "tasks";
 
-+// Define TinyBase database cell names  
-+const TEXT_CELL = "text";
-+const DONE_CELL = "done";
+// Add code here
+// Add code here
+// ...
+```
+
+## Define Cell Names
+```typescript
+// ...
+// Define TinyBase database table name
+const TABLE_NAME = "tasks";
+
+// Define TinyBase database cell names  
+const TEXT_CELL = "text";
+const DONE_CELL = "done";
+// ...
 ```
 
 [Previous: TinyBase Provider](/02-tinybase-provider.md) • [Next: TinyBase Store](/04-tinybase-store.md)

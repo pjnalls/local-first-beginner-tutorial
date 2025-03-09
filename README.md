@@ -1,9 +1,9 @@
 # local-first-dev-tutorial
 A React Native development beginner tutorial for building a local-first to-do app for iOS, Android, and the Web, based on the tutorial Expo provides here: https://www.youtube.com/watch?v=eNviiODBWFE.
 
-While local-first software may not fit every use case and there are certainly some disadvantages to using it, I'm excited about the potential data privacy and security it can give back to users. I'm a fan of Tim Berners-Lee, the inventor of the World Wide Web, who is a vocal advocate for user control of their personal data.
+While local-first software may not fit every use case and there are certainly some disadvantages to using it, I'm excited about the potential data privacy and security it can give back to users. I'm a fan of Tim Berners-Lee, the inventor of the World Wide Web, who is a vocal advocate for users having control over their own personal data.
 
-Inspired by Tim Berners-Lee's user-centered ideas of personal data, I'll try to make short step-by-step READMEs and code samples for anyone to follow that show how to develop a local-first React Native to-do app for iOS and Android.
+Inspired by this, I'll try to make short step-by-step READMEs and code samples for anyone to follow that show how to develop a local-first React Native to-do app for iOS and Android.
 
 You can read about local-first architecture with Expo here: https://docs.expo.dev/guides/local-first/
 
