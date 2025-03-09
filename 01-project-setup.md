@@ -1,3 +1,5 @@
+# Project Setup
+
 *Concepts you may want to Google beforehand: bash, terminal, shell, vscode, cursor, ide, create-expo-app, metro bundler, sqlite, tinybase*
 
 **Goal: Create an Expo app and install dependencies.**
@@ -81,3 +83,5 @@ You should see something like the following for the Home tab:
 <div align="center">
     <img alt="expo app home tab tasks" src="figures/fig-1/fig-1c.png" width="240px" />
 </div>
+
+[Previous: Environment](/00-environment.md) • [Next: TinyBase Provider](/02-tinybase-provider.md)

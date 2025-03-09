@@ -1,3 +1,5 @@
+# TinyBase Tables and Cells
+
 *Concepts you may want to Google beforehand: database tables, database cells*
 
 **Goal: Define TinyBase database table and cell names.**
@@ -39,3 +41,5 @@ const TABLE_NAME = "tasks";
 +const TEXT_CELL = "text";
 +const DONE_CELL = "done";
 ```
+
+[Previous: TinyBase Provider](/02-tinybase-provider.md) • [Next: TinyBase Store](/04-tinybase-store.md)

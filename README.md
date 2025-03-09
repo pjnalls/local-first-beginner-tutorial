@@ -44,3 +44,5 @@ We will go through all of these strategic steps in order.
 ## Credits
 1. Big thanks to [Expo](https://expo.dev/) for getting me curious about local-first development and for sharing the beginner tutorial for it available here: https://www.youtube.com/watch?v=eNviiODBWFE.
 2. Credit to [@cfenollossa](https://github.com/cfenollosa) for their well-written [os-tutorial](https://github.com/cfenollosa/os-tutorial) which helped me write this tutorial.
+
+[Next: Environment](/00-environment.md)
