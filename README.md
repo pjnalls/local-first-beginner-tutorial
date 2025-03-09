@@ -28,7 +28,7 @@ We'll implement CRUD operations, a local database, and a synchronization feature
 - Install dependencies - **DONE!**
 - Add TinyBase provider - **DONE!**
 - Define TinyBase database tables and cells - **DONE!**
-- Create a mergeable store
+- Create a mergeable store - **DONE!**
 - Add items to the store
 - Start TinyBase persister
 - Display tasks
