@@ -1,9 +1,14 @@
 // Used to contain elements in the UI
 import { View } from "react-native";
-
 // Custom light-and-dark-themed wrapper component around the React Native Text element
 import { ThemedText } from "@/components/ThemedText";
 
+// Define TinyBase database table name
+const TABLE_NAME = "tasks";
+
+// Define TinyBase database cell names  
+const TEXT_CELL = "text";
+const DONE_CELL = "done";
 /**
  * Generates a random ID string using timestamp and random numbers
  * @returns A unique string ID

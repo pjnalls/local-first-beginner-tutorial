@@ -61,7 +61,6 @@ $ npx expo start
 ```typescript
 // Used to contain elements in the UI
 import { View } from "react-native";
-
 // Custom light-and-dark-themed wrapper component around the React Native Text element
 import { ThemedText } from "@/components/ThemedText";
 

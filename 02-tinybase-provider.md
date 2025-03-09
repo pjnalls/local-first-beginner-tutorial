@@ -82,7 +82,7 @@ Please create two helper functions for the HomeScreen of a to-do app written abo
 
 ## Option 2: Type Helper Functions Provided in Tutorial
 
-The following code generated above the Home Component in `/client/app/(tabs)/index.tsx` based on the prompt provided in "## Option 1" in the last step:
+The following code generated above the Home Component in `/client/app/(tabs)/index.tsx` based on the prompt provided in the last step, the `## Option 1"` section:
 ```typescript
 // ...
 /**

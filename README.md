@@ -27,7 +27,7 @@ We'll implement CRUD operations, a local database, and a synchronization feature
 - Create a client Expo app - **DONE!**
 - Install dependencies - **DONE!**
 - Add TinyBase provider - **DONE!**
-- Define TinyBase database tables and cells
+- Define TinyBase database tables and cells - **DONE!**
 - Create a mergeable store
 - Add items to the store
 - Start TinyBase persister
